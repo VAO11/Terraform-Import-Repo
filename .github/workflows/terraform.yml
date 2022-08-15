@@ -39,7 +39,7 @@ jobs:
 
    # Runs a single command using the runners shell
     - name: Run a one-line script
-      run: ls -l
+      run: cd terraform/
 
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
